@@ -10,10 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
+let fullName = "Mishari Majed Fadhel"
+let yearofBrith = 1988
+let hobby = "gaming"
+let funFact = "no comment"
+const image = "https://static.javatpoint.com/computer/images/what-is-the-url.png"
 
 
 /**
@@ -31,9 +32,10 @@
 
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
-// const hobbyString =
-
-
+// const hobbyString = 
+fullNameString = "my name is mishari"
+yearOfBirthString = "iam 35 years old"
+hobbyString = "my hobby is gaming"
 
 
 /**
@@ -43,16 +45,18 @@
 
 let stars = 0;
 
-function incrementBy1() {
+function incrementBy1() {stars = stars + 1
   // Increment stars by 1 👇🏻
-}
-function decrementBy1() {
+
+}                          
+function decrementBy1() {stars = stars - 1
   // decrement stars by 1 👇🏻
 }
 
-function incrementBy2() {
+function incrementBy2() { stars = stars +2
   // Increment stars by 2 👇🏻
 }
-function decrementBy2() {
+function decrementBy2() { stars = stars- 2
   // decrement stars by 2 👇🏻
 }
+
